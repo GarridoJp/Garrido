@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Garrido</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    html{
+        width: inherit;
+        height: 100%;
+    }
+
+    body{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-image: url(pisca.png);
+        background-position:inherit;
+        background-repeat: repeat;
+        color: #99ff99;
+        font-family: "Barlow Condensed", sans-serif;
+    }
+
+    div{
+        border: #fdfdfd 2px solid;
+        color: #fdfdfd;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding: 1em;
+        border-radius: 7px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    form{
+        text-align: right;
+        line-height: 0.5em;
+    }
+    form label{
+        text-align: left;
+        font-weight: 400;
+        font-size: 14pt;
+    }
+
+    input{
+        margin-top: 0.5em;
+    }
+
+    input[type=submit]{
+        background-color: black;
+        border: black;
+        padding: 0.5em;
+        border-radius: 7px;
+        color: white;
+    }
+
+    input[type=text]{
+        background-color: black;
+        border: black;
+        padding: 0.5em;
+        border-radius: 7px;
+        color: white;
+    }
+
+    input[type=date]{
+        background-color: black;
+        border: black;
+        padding: 0.5em;
+        border-radius: 7px;
+        color: white;
+    }
+</style>
+
+<body>
+    <div>
+        <img src="joinha.webp" style="height: 50px; height: auto;">
+        <h2>com certeza não é golpe </h2>
+        <form action="sucesso.html" method="get">
+            <label>seus dados pessoais</label>
+            <input type="text" placeholder="Insira seus dados hehehe"><br>
+            <label>data de Nascimento</label>
+            <input type="date"><br>
+            <label>seu cartão de crédito</label>
+            <input type="text" placeholder="Insira os números hehe"><br>
+            <input type="submit" name="Enviar" value="Netflix Grátis🤯">
+        </form>
+    </div>
+</body>
+
+</html>
